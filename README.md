@@ -1,3 +1,5 @@
+Here is the Postman collection converted into the README format:
+
 # Appointment Booking API
 
 This is a simple appointment booking API built with Express.js. It allows users to book, view, modify, and cancel appointments with doctors.
@@ -7,7 +9,7 @@ This is a simple appointment booking API built with Express.js. It allows users 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Postman Collection](#postman-collection)
+- [Example API Requests](#example-api-requests)
 - [Middleware](#middleware)
 - [Starting the Server](#starting-the-server)
 - [Unit Testing](#unit-testing)
@@ -56,12 +58,16 @@ Each route includes validation middleware to ensure that the required fields are
 - `validateDoctor`: Checks if the specified doctor exists.
 - `validateQueryParams`: Validates query parameters for GET requests.
 
-## Postman Collection
+## Example API Requests
 
-You can use the provided Postman collection to test the API. Below are example requests for each endpoint:
+Here are some example API requests for testing the API:
 
-- **Book Appointment** (POST `/book`):
+### Book Appointment (POST `/book`)
+
 ```json
+POST /api/v1/appointments/book
+Host: localhost:3000
+
 {
   "firstName": "Rohan",
   "lastName": "Agrawal",
@@ -70,35 +76,40 @@ You can use the provided Postman collection to test the API. Below are example r
   "doctorName": "Dr. John Smith"
 }
 ```
-- **View Appointment** (GET `/appointment?email=rohan@example.com`):
+
+### View Appointment (GET `/appointment`)
+
 ```json
-{
-  "email": "rohan@example.com"
-}
+GET /api/v1/appointments/appointment?email=rohan@example.com
+Host: localhost:3000
 ```
-- **Cancel Appointment** (DELETE `/cancel`):
+
+### Cancel Appointment (DELETE `/cancel`)
+
 ```json
-{
-  "email": "rohan@example.com",
-  "timeSlot": "08:00 AM - 09:00 AM"
-}
+DELETE /api/v1/appointments/cancel?email=rohan@example.com&timeSlot=09:00 AM - 10:00 AM
+Host: localhost:3000
 ```
-- **View All Appointments by Doctor** (GET `/Dr. John Smith`):
+
+### View All Appointments by Doctor (GET `/:doctorName`)
+
 ```json
-{
-  "doctorName": "Dr. John Smith"
-}
+GET /api/v1/appointments/Dr. John Smith
+Host: localhost:3000
 ```
-- **Modify Appointment** (PATCH `/modify`):
+
+### Modify Appointment (PATCH `/modify`)
+
 ```json
+PATCH /api/v1/appointments/modify
+Host: localhost:3000
+
 {
   "email": "rohan@example.com",
   "originalTimeSlot": "09:00 AM - 10:00 AM",
   "newTimeSlot": "10:00 AM - 11:00 AM"
 }
 ```
-
-The full Postman collection is available for import to test the API.
 
 ## Middleware
 
@@ -129,4 +140,3 @@ To run the tests for this project, use the following commands:
   ```
 
   The test coverage results will be saved in the `coverage` folder.
-
