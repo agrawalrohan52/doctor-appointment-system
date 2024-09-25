@@ -1,18 +1,27 @@
 {
   "name": "doctor-appointment-system",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js",
+    "test": "jest src/tests/app.test.js",
+    "test:coverage": "jest src/tests/app.test.js --coverage"
   },
   "keywords": [],
   "author": "Rohan Agrawal",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "http-errors": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "type": "module"
 }

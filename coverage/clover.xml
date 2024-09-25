@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1727253832469" clover="3.2.0">
+  <project timestamp="1727253832469" name="All files">
+    <metrics statements="95" coveredstatements="93" conditionals="32" coveredconditionals="30" methods="25" coveredmethods="25" elements="152" coveredelements="148" complexity="0" loc="95" ncloc="95" packages="6" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/index.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="25" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="appointmentController.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/controllers/appointmentController.js">
+        <metrics statements="25" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="8"/>
+      <file name="errorMiddleware.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/middlewares/errorMiddleware.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="validators.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/middlewares/validators.js">
+        <metrics statements="19" coveredstatements="18" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="64" type="stmt"/>
+        <line num="21" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="13" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="appointmentRoutes.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/routes/appointmentRoutes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="33" coveredstatements="33" conditionals="18" coveredconditionals="18" methods="11" coveredmethods="11"/>
+      <file name="appointmentService.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/services/appointmentService.js">
+        <metrics statements="33" coveredstatements="33" conditionals="18" coveredconditionals="18" methods="11" coveredmethods="11"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="62" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="68" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="doctorsList.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/utils/doctorsList.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="inMemoryStore.js" path="/Users/rohanagrawal/Desktop/doctor-appointment-system/src/utils/inMemoryStore.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
