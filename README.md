@@ -13,6 +13,7 @@ This is a simple appointment booking API built with Express.js. It allows users 
 - [Middleware](#middleware)
 - [Starting the Server](#starting-the-server)
 - [Unit Testing](#unit-testing)
+- [Code Coverage](#code-coverage)
 
 ## Installation
 
@@ -140,3 +141,15 @@ To run the tests for this project, use the following commands:
   ```
 
   The test coverage results will be saved in the `coverage` folder.
+
+## Code Coverage
+
+This project has the following code coverage:
+
+- **Statements Covered**: 97.95%
+- **Branches Covered**: 93.75%
+- **Functions Covered**: 100%
+- **Lines Covered**: 97.89%
+
+For more detailed coverage information, please check the [HTML Coverage Report](https://agrawalrohan52.github.io/doctor-appointment-system/).
+
