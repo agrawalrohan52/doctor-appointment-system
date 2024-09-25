@@ -1,5 +1,3 @@
-Here is the Postman collection converted into the README format:
-
 # Appointment Booking API
 
 This is a simple appointment booking API built with Express.js. It allows users to book, view, modify, and cancel appointments with doctors.
