@@ -45,11 +45,11 @@ This API allows users to perform the following actions:
 - **GET** `/appointment`: View an appointment by email.
 - **GET** `/:doctorName`: View appointments by doctor name.
 - **DELETE** `/cancel`: Cancel an appointment.
-- **PUT** `/modify`: Modify an existing appointment.
+- **PATCH** `/modify`: Modify an existing appointment.
 
 ### Request Validation
 
-Each route includes validation middleware to ensure required fields are present and valid:
+Each route includes validation middleware to ensure that the required fields are present and valid:
 
 - `validateFields`: Ensures that required fields are included in the request body.
 - `validateDoctor`: Checks if the specified doctor exists.
